@@ -1,0 +1,75 @@
+body{
+    background-color: rgba(237,245, 241,0.5);
+}
+#logo_zone{
+    display: inline-block; /* not use block bcof need space for nav */
+    margin-left: 20px;
+}
+#nav{
+    float: right; 
+    
+}
+ol{
+    display: flex;
+    list-style-type: none; /* make the bullet disappear */
+}
+li{
+    margin: 20px 20px;
+}
+#get_start_zone{
+    text-align: center;
+}
+#get_start_button{ /* edit the submit button */
+    background-color: rgba(255, 205, 69,0.8);
+    padding: 10px 10px;
+    width: 200px;
+}
+section{
+    margin-left: 150px; /* move to the right of the screen */
+}
+.section_pa{
+    margin-top: -10px;
+}
+#footer_nav{
+    float: right;
+}
+footer{
+    float: right;
+}
+#footer_pa{
+    position: relative;
+    left: 45px;
+    top: -15px; /* make top smaller */
+}
+.menu{
+    display: flex;
+    justify-content: space-around; /* three element in the menu */
+}
+.menu_element{
+    border: 1px solid black;
+    padding: 20px 40px;
+    text-align: center;
+    background-color: rgba(237,245, 241,0.6);
+}
+.menu_lr{
+    margin : 0px 100px;
+}
+.intro{
+    padding: 10px 25px;
+    background-color: rgba(227, 232, 229,0.3);
+}
+.select_button{
+    width: 60px;
+    text-align: center;
+    background-color: rgba(255, 205, 69,0.8);  /* select button in menu */
+    padding: 10px 10px;
+}
+
+.select_button:hover{
+    background-color: rgba(255, 205, 69,1);
+    transition: ease-out;
+}
+#get_start_button:hover{
+    background-color: rgba(255, 205, 69,1);
+    transition: ease-out;
+}
